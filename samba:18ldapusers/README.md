@@ -46,7 +46,7 @@ pam_ldap.so) i es munti el  home via samba (pam_mount.so).
 Samba pot desar els seus usuaris en una base de dades local anomenada **tdbsam** o els pot desar en un servidor ldap 
 usant com a backend **ldapsam**. El mecanisme més simple és usar *tdbsam* i *smbpasswd* i *pdbedit* com a utilitats.
 
-  **hostpam** Un  hostpam configurat per accedir als usuarislocals i ldap i que usant pam_mount.so
+  * **hostpam** Un hostpam configurat per accedir als usuarislocals i ldap i que usant pam_mount.so
 munta dins del home dels usuaris un home de xarxa via samba. Cal configurar */etc/security/pam_mount.conf.xml* 
 per muntar el recurs samba dels *[homes]*.
 
