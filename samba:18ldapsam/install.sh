@@ -88,5 +88,6 @@ echo -e "jordi\njordi" | smbpasswd -a jordi
 echo -e "admin\nadmin" | smbpasswd -a admin
 
 ldapserach -x -LLL 'uid=pere'
-
+pdbedit -L
+#pdbedit -Lv
 
