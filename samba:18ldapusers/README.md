@@ -10,7 +10,7 @@ ASIX M06-ASO Escola del treball de barcelona
 
 ### Imatges:
 
-* **samba:18ldapusers** Servidor SAMBA amb usuaris locals i usuaris LDAP (unix). 
+* **edtasixm06/samba:18ldapusers** Servidor SAMBA amb usuaris locals i usuaris LDAP (unix). 
 Es creen comptes d'usuari samba de usuaris locals i de alguns dels usuaris ldap (no tots).
 Es creen també els directoris home dels usuaris de ldap i se'ls assigna la pripietat/grup
 pertinent.

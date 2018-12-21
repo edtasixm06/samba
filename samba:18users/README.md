@@ -10,13 +10,15 @@ ASIX M06-ASO Escola del treball de barcelona
 
 ### Imatges:
 
-* **pamhost:18base** Servidor SAMBA bàsic amb *shares* d'exemple.
+* **edtasixm06/samba:18base** Servidor bàsic de samba amb *shares* d'exemple per practicar accés autenticat als
+shares, permisos de lectura/escriptura i modes.
+
 
 
 #### Execució
 
 ```
-docker run --rm --name samba -h samba --net sambanet -it edtasixm06/samba:18base 
+docker run --rm --name samba -h samba --net sambanet -it edtasixm06/samba:18busers
 ```
 
 #### Shares d'exemple

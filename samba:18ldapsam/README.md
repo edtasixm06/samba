@@ -11,7 +11,7 @@ ASIX M06-ASO Escola del treball de barcelona
 
 ### Imatges:
 
-* **samba:18ldapsam** Servidor SAMBA amb backend LDAP *ldapsam*. Requereix de l'ús de un 
+* **edtasixm06/samba:18ldapsam** Servidor SAMBA amb backend LDAP *ldapsam*. Requereix de l'ús de un 
 servidor ldap preparat amb l'schema samba. Les dades dels usuaris samba es desen en els comptes
  d'usuari ldap.
 
