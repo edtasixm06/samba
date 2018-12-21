@@ -10,7 +10,7 @@ ASIX M06-ASO Escola del treball de barcelona
 
 ### Imatges:
 
-* **edtasixm06/samba:18base** Servidor bàsic de samba amb *shares* d'exemple per practicar accés autenticat als
+* **edtasixm06/samba:18users** Servidor bàsic de samba amb *shares* d'exemple per practicar accés autenticat als
 shares, permisos de lectura/escriptura i modes.
 
 
