@@ -19,6 +19,8 @@ shares, permisos de lectura/escriptura i modes.
 samba d'usuaris locals i d'alguns dels usuaris ldap (no tots). Es creen també els directoris home dels usuaris de ldap 
 i se'ls assigna la pripietat/grup pertinent. Finalment s'exporten els shares d'exemple usuals i els **[homes]** dels 
 usuaris samba. D'aquesta manera un hostpam (amb ldap) pot muntar els homes dels usuaris (home dins home) usant samba.
+
+* **edtasixm06/samba:18detach** Versió de samba:18ldapusers amb un bucle *cutre* per poder deixar-lo detach.
 	
 * **edtasixm06/samba:18ldapsam** Servidor SAMBA amb backend LDAP ldapsam. Requereix de l'ús de un servidor ldap preparat
 amb l'schema samba. Les dades dels usuaris samba es desen en els comptes d'usuari ldap.
